@@ -22,4 +22,5 @@ test("Naaptol flow with POM", async ({ page }) => {
   await expect(productPageHandle).toHaveTitle(naaptol.expectedTitle);
 
   await productPageHandle.waitForTimeout(2000);
+ 
 });
